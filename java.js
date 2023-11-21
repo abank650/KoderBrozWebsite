@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
         nav.classList.toggle('nav-active');
         burger.classList.toggle('toggle');
     });
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {  
+            nav.classList.remove('nav-active');
+            burger.classList.remove('toggle');
+        }
+    });
 });
 
 
