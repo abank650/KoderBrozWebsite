@@ -26,11 +26,11 @@
 .nav-links a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-    color: #ddd;
+    color: rgb(95, 95, 95);
 }
 
 .burger {
