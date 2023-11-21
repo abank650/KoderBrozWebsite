@@ -46,6 +46,18 @@
     transition: all 0.3s ease;
 }
 
+.burger.toggle div:nth-child(1) {
+    transform: translateY(8px) rotate(90deg);
+}
+
+.burger.toggle div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.toggle div:nth-child(3) {
+    transform: translateY(-8px) rotate(90deg);
+}
+
 @media screen and (max-width: 768px) {
     .nav-links {
         position: fixed;
