@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    background: white;
+}
+
+#featured-coffees {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coffee {
+    margin: 10px;
+    text-align: center;
+}
+
+.coffee img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#about-us {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#special-offers {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+#testimonials {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.testimonial {
+    border: 1px solid #bbb;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#contact {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5dd90;
+    color: #4169e1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #4169e1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
