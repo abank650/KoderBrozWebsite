@@ -1,15 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Updated font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fafafa; /* Light background color */
     color: #333;
 }
 
 main {
     padding: 20px;
-    background: white;
+    background: #fff; /* White background for main content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+/* Shared style for sections */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #featured-coffees {
@@ -19,7 +28,7 @@ main {
 }
 
 .coffee {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -30,47 +39,38 @@ main {
 }
 
 #about-us {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #e2e2e2;
-    border-radius: 10px;
+    background-color: #e0ded9; /* Light beige background color */
     text-align: center;
 }
 
 #special-offers {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ddd;
+    background-color: #d1c0a5; /* Light brown background color */
     text-align: center;
 }
 
 #testimonials {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ccc;
+    background-color: #b9a69f; /* Light coffee brown background color */
     text-align: center;
 }
 
 .testimonial {
-    border: 1px solid #bbb;
+    border: 1px solid #9c7f74; /* Darker coffee brown border */
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fff;
 }
 
 #contact {
-    margin-top: 20px;
-    padding: 20px;
+    background-color: #e0ded9; /* Light beige background color */
     text-align: center;
-    background-color: #e2e2e2;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f5dd90;
-    color: #4169e1;
+    background-color: #b9a69f; /* Light coffee brown background color */
+    color: #fff; /* White text color */
     position: relative;
     bottom: 0;
     width: 100%;
@@ -79,8 +79,9 @@ footer {
 a {
     color: #4169e1;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #1b1b1e;
 }
