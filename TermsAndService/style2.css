@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #332B1F;
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #D2B48C;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #8B4513;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #FFF8DC;
+    border-radius: 5px;
+}
+
+#terms h2, #terms h3, #gdpr h2,#gdpr h3 {
+    color: #8B4513;
+    margin-top: 20px;
+}
+
+#terms ul, #gdpr ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#terms li, #gdpr li {
+    margin-bottom: 10px;
+}
+
+#gdpr {
+    margin-bottom: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+}
