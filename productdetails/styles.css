@@ -126,4 +126,37 @@ body, html {
     cursor: pointer;
     border-radius: 15px;
   }
+
+  .coffee-options {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
   
+  .coffee-details {
+    margin-bottom: 2rem; 
+  }
+  
+  .option-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; 
+  }
+
+.product-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.coffee-image {
+  text-align: center; 
+  flex: none; 
+}
+
+.coffee-image img {
+  max-width: 300px; 
+}
+
