@@ -160,3 +160,7 @@ body, html {
   max-width: 300px; 
 }
 
+.option-btn.active {
+  background-color: #8B4513; 
+  color: #fff; 
+}
