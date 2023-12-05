@@ -52,6 +52,12 @@ section {
     margin-bottom: 100px;
 }
 
+nav a:hover {
+    color: #B8860B;
+    border-bottom: 2px solid #B8860B;
+}
+
+
 footer {
     text-align: center;
     padding: 10px 20px;
@@ -59,14 +65,4 @@ footer {
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
-}
-
-@media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-    }
-    nav li {
-        display: block;
-        margin: 5px 0;
-    }
 }
