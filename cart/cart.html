@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <header class="header">
+    <a href="previous-page.html" class="back-button">&larr; Checkout</a>
+    <img src="coffeecube_logo2.png" alt="Coffee Cube Logo" class="logo">
+  </header>
+
+  <div class="cart">
+    <div class="cart-item">
+      <img src="Frame2106.png" alt="Coffee milk" class="cart-item-image">
+      <div class="cart-item-details">
+        <h2>Coffee milk</h2>
+        <p>Ice, Regular, Normal Sugar, Normal Ice</p>
+        <div class="quantity-control">
+          <button class="quantity-btn" id="minus-cart">-</button>
+          <span class="quantity">1</span>
+          <button class="quantity-btn" id="plus-cart">+</button>
+        </div>
+        <div class="price">100 CZK</div>
+      </div>
+    </div>
+
+    <div class="order-time">
+      <h3>When do you want order?</h3>
+      <label><input type="radio" name="order-time" value="asap"> As Soon as Possible</label>
+      <label><input type="radio" name="order-time" value="now"> Now - 10 Minute</label>
+      <label><input type="radio" name="order-time" value="later"> Later</label>
+    </div>
+
+    <div class="payment-summary">
+      <h3>Payment Summary</h3>
+      <p>Coffee Milk</p>
+      <p>Total</p>
+      <div class="total">100 CZK</div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <img src="coffeecube_logo_symbols1.png" alt="Coffee Cube Symbols" class="symbols">
+    <div class="checkout-area">
+      <div class="total-summary">Total: 100 CZK</div>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </footer>
+</div>
+
+<script src="cart-script.js"></script>
+</body>
+</html>
