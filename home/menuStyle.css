@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5dd90;
+    background-color: #D2B48C;
     padding: 0 20px;
     height: 80px;
 }
@@ -30,7 +30,7 @@
 }
 
 .nav-links a {
-    color: #4169e1;
+    color: #8B4513;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -70,7 +70,7 @@
         right: -50%;
         top: 80px;
         height: calc(100vh - 80px);
-        background-color: #f5dd90;
+        background-color: #D2B48C;
         flex-direction: column;
         align-items: center;
         width: 50%;
