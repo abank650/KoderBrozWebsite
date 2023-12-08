@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .landing-container {
+    text-align: center;
+    color: black; 
+  }
+  
+  .logo-container img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .brand-name {
+    font-size: 2em;
+    margin-bottom: 0.25em;
+    color: #8B4513;
+  }
+  .info-container p {
+    margin-bottom: 2em;
+  }
+  
+  
+  .order-button {
+    background-color: #8B4513; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .order-button:hover {
+    background-color: #a0522d; 
+  }
+  
+  
