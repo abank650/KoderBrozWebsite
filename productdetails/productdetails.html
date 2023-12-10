@@ -5,17 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Coffee Product Details</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" type="text/css" href="../home/menuStyle.css">
 </head>
 <body>
-  <header class="navbar">
-    <nav>
-        <ul>
-            <li><a href="#coffees">Coffees</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+  <nav class="navbar">
+    <div class="logo"><img src="../images/logo.png" alt="logo"></div>
+
+    <ul class="nav-links">
+        <li><a href="../home/CoffeeNavigation.html">Home</a></li>
+        <li><a href="../cart/cart.html">Shopping Cart</a></li>
+        <li><a href="#menu">Menu</a></li> <!-- link to menu page once it's made -->
+    </ul>
+
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
 
 <div class="container">
   <section class="product-area">
@@ -68,9 +75,11 @@
     <a href="../cart/cart.html" class="checkout-btn">Add to cart</a>
   </div>
 
-  <footer class="footer">
+  <footer>
+    <a href="../TermsAndService/termsAndGDPR.html">Terms & Conditions + GDPR</a>
     <p>&copy; 2023 Coffee Cube</p>
-  </footer>
+</footer>
+<script src="../home/menuScript.js"></script>
 
   
 </div>

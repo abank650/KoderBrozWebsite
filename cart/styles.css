@@ -3,10 +3,9 @@ body, html {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background: #f4f4f4;
-  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  min-height: 100vh; 
 }
 
 .container {
@@ -45,8 +44,8 @@ body, html {
 }
 
 .checkout-btn {
-  background-color: #8B4513; /* Brown background */
-  color: #fff; /* White text */
+  background-color: #8B4513; 
+  color: #fff; 
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -56,9 +55,12 @@ body, html {
   width: 100%;
 }
 
-/* Add responsiveness */
-@media (max-width: 600px) {
-  .container {
-    width: 90%;
-  }
+footer {
+  width: 100%;
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px 0; 
 }
