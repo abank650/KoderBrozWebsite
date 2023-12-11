@@ -94,7 +94,7 @@
 .menu-tabs {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .tab-button {
@@ -152,8 +152,6 @@
     }
 }
 
-/* Center-aligning section headers */
 section h2 {
     text-align: center;
-    margin: 20px 0; 
 }

@@ -45,6 +45,7 @@ footer a:hover {
     color: #fff;
     /* Light color for heading */
     margin-bottom: 1em;
+    margin: 20px 0; 
 }
 
 /* Coffee items layout */
@@ -93,6 +94,19 @@ footer a:hover {
     /* Light text color */
 }
 
+.coffee-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu{
+    background-color: #6f4e37;
+}
+
+#menu h2{
+    padding: 8px;
+}
+
 .description h3 {
     color: #fff;
     font-size: 1.2em;
@@ -126,24 +140,40 @@ footer a:hover {
 /* Additional sections */
 #about,
 #contact {
-    padding: 2em;
-    background-color: #1a1a1a;
-    /* Dark background */
-    margin-top: 1em;
+    padding: 1em;
+    background-color: #6f4e37;
     text-align: center;
     color: #fff;
-    /* Light text color */
+}
+
+#about h2, #contact h2 {
+    padding-bottom: 7px;
+    text-decoration: underline;
+}
+
+#about p{
+    text-align: left;
+    text-indent: 50px;
+    padding-bottom: 10px;
 }
 
 footer {
-    background-color: #1a1a1a;
-    /* Dark footer */
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
     position: relative;
     width: 100%;
     box-sizing: border-box;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
 }
 
 @keyframes shake {
