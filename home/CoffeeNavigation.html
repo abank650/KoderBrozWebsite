@@ -31,17 +31,17 @@
 
 
         <section id="coffees">
-            <h2>Our Coffees</h2>
+            <h2>Featured Coffees</h2>
             <div class="coffee-menu">
                 <div class="coffee-item">
                     <a href="..//productdetails/productdetails.html">
-                    <img src="./Transparent CandW.png" alt="Coffee with Milk">
-                    <div class="coffee-description">
-                        <h3>Coffee with Milk</h3>
-                        <p>Coffee + fresh milk</p>
-                        <p>100 CZK</p>
-                    </div>
-                </a>
+                        <img src="./Transparent CandW.png" alt="Coffee with Milk">
+                        <div class="coffee-description">
+                            <h3>Coffee with Milk</h3>
+                            <p>Coffee + fresh milk</p>
+                            <p>100 CZK</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="coffee-item">
                     <img src="./nitro-cold-brew.webp" alt="Nitro Cold Brew">
@@ -52,19 +52,101 @@
                     </div>
                 </div>
                 <div class="coffee-item">
-                    
-                        <img src="./Carmel Latte.webp" alt="Caramel Latte">
-                        <div class="coffee-description">
-                            <h3>Caramel Latte</h3>
-                            <p>Espresso, Fresh Milk and Caramel</p>
-                            <p>130 CZK</p>
-                        </div>
+
+                    <img src="./Carmel Latte.webp" alt="Caramel Latte">
+                    <div class="coffee-description">
+                        <h3>Caramel Latte</h3>
+                        <p>Espresso, Fresh Milk and Caramel</p>
+                        <p>130 CZK</p>
+                    </div>
                 </div>
                 <!-- Add more coffee items as needed -->
             </div>
         </section>
+        
 
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-tabs">
+        <button class="tab-button" onclick="showTab('HotCoffee')">Hot Coffee</button>
+        <button class="tab-button" onclick="showTab('HotDrinks')">Hot Drinks</button>
+        <button class="tab-button" onclick="showTab('ColdDrinks')">Cold Drinks</button>
+        <button class="tab-button" onclick="showTab('Sodas')">Sodas</button>
+        <button class="tab-button" onclick="showTab('Alcohol')">Alcohol</button>
+    </div>
+
+    <!-- ... existing tab-content divs ... -->
+</section>
+
+<!-- ... existing HTML ... -->
+
+<script>
+    function showTab(tabId) {
+        // Hide all tab content
+        document.querySelectorAll('.tab-content').forEach(tab => {
+            tab.style.display = 'none';
+        });
+
+        // Show the selected tab content
+        document.getElementById(tabId).style.display = 'block';
+    }
+
+    // Initialize the first tab open by default
+    document.addEventListener('DOMContentLoaded', () => {
+        showTab('HotCoffee');
+    });
+</script>
+
+<!-- ... existing HTML ... -->
+
+            </div>
+
+            <!-- Hot Coffee Menu Items -->
+            <div id="HotCoffee" class="tab-content">
+                <p>★ Espresso - Small: 50 Kč | Large: 70 Kč</p>
+                <p>★ Americano - Small: 65 Kč | Large: 85 Kč</p>
+                <p>★ Macchiato - Small: 55 Kč | Large: 75 Kč</p>
+                <p>★ Latte - Small: 70 Kč | Large: 90 Kč</p>
+                <p>★ Cappuccino - Small: 65 Kč | Large: 85 Kč</p>
+            </div>
+
+            <!-- Hot Drinks Menu Items -->
+            <div id="HotDrinks" class="tab-content">
+                <p>★ Hot Chocolate - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Black Tea - Small: 60 Kč | Large: 80 Kč</p>
+                <p>★ Green Tea - Small: 60 Kč | Large: 80 Kč</p>
+                <p>★ Herbal Tea - Small: 65 Kč | Large: 85 Kč</p>
+                <p>★ Tea Latte - Small: 70 Kč | Large: 90 Kč</p>
+            </div>
+
+            <!-- Cold Drinks Menu Items -->
+            <div id="ColdDrinks" class="tab-content">
+                <p>★ Lemonade - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Iced Tea - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Iced Coffee - Small: 60 Kč | Large: 80 Kč</p>
+                <p>★ Iced Latte - Small: 65 Kč | Large: 85 Kč</p>
+                <p>★ Cold Brew Coffee - Small: 70 Kč | Large: 90 Kč</p>
+            </div>
+
+            <!-- Sodas Menu Items -->
+            <div id="Sodas" class="tab-content">
+                <p>★ Cola - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Ginger Ale - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Lemon-Lime - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Orange - Small: 40 Kč | Large: 60 Kč</p>
+                <p>★ Root Beer - Small: 40 Kč | Large: 60 Kč</p>
+            </div>
+
+            <!-- Alcohol Menu Items -->
+            <div id="Alcohol" class="tab-content">
+                <p>★ Pilsner - Small: 85 Kč | Large: 105 Kč</p>
+                <p>★ Lager - Small: 85 Kč | Large: 105 Kč</p>
+                <p>★ Red Wine - Small: 100 Kč | Large: 120 Kč</p>
+                <p>★ White Wine - Small: 100 Kč | Large: 120 Kč</p>
+                <p>★ Rosé - Small: 105 Kč | Large: 125 Kč</p>
+            </div>
         </section>
+        
 
         <section id="about">
             <h2>About Us: The Essence of Coffee Cube</h2>
@@ -107,6 +189,8 @@
 
     <script src="menuScript.js"></script>
     <script src="homeScript.js"></script>
+
+
 </body>
 
 </html>
