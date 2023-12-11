@@ -6,16 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Shop - Terms & GDPR</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="../home/menuStyle.css">
 </head>
 
 <body>
     <header>
-        <h1><a href="../home/CoffeeNavigation.html">Coffee Cube</a></h1>
-        <nav>
-            <ul>
+
+        <nav class="navbar">
+            <div class="logo"><img src="../images/logo.png" alt="logo"></div>
+    
+            <ul class="nav-links">
+                <li><a href="../home/CoffeeNavigation.html">Home</a></li>
+                <li><a href="../cart/cart.html">Shopping Cart</a></li>
+                <li><a href="../home/CoffeeNavigation.html#menu">Menu</a></li> <!-- link to menu page once it's made -->
                 <li><a href="#terms">Terms and Conditions</a></li>
                 <li><a href="#gdpr">GDPR</a></li>
+
             </ul>
+    
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
     <main>
@@ -127,7 +140,7 @@
     <footer>
         <p>&copy; 2023 Coffee Cube</p>
     </footer>
-    <script src="script2.js"></script>
+    <script src="../home/menuScript.js"></script>
 </body>
 
 </html>

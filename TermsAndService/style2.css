@@ -6,27 +6,6 @@ body {
     padding: 0;
 }
 
-header, footer {
-    background-color: #D2B48C;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav a {
-    color: #8B4513;
-    text-decoration: none;
-}
-
 section {
     margin: 20px;
     padding: 15px;
@@ -50,19 +29,4 @@ section {
 
 #gdpr {
     margin-bottom: 100px;
-}
-
-nav a:hover {
-    color: #B8860B;
-    border-bottom: 2px solid #B8860B;
-}
-
-
-footer {
-    text-align: center;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
 }

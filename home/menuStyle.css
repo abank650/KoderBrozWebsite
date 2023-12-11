@@ -152,7 +152,6 @@
 
 /* Center-aligning section headers */
 section h2 {
-    text-align: center; /* Center align text */
-    margin: 20px 0; /* Add some margin for spacing */
-    font size: 10px;
+    text-align: center;
+    margin: 20px 0; 
 }
