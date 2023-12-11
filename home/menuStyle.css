@@ -77,6 +77,8 @@
         width: 50%;
         transition: right 0.35s ease-in;
         display: flex;
+        position: absolute;
+        z-index: 2; 
     }
 
     .nav-active {

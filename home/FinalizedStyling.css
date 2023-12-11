@@ -3,22 +3,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* Updated font */
     margin: 0;
     padding: 0;
     background-color: #121212;
-    /* Dark background */
     color: #fff;
-    /* Light text for readability */
-}
-
-header {
-    background: #1f1f1f;
-    /* Darker header background */
-    padding: 1em 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo img {
@@ -29,33 +17,11 @@ header {
     animation: shake 0.5s ease-in-out;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    padding-right: 215px;
-}
-nav ul li {
-    padding: 0 1em;
-    justify-content: end;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #bbb;
-    /* Lighter text color for links */
-}
-
 nav ul li a:hover,
 footer a:hover {
     color: #f0f0f0;
-    /* Brighter color on hover */
 }
 
-/* ... other styles ... */
 
 #coffees {
     position: relative;
