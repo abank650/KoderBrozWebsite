@@ -176,6 +176,29 @@ footer a:hover{
     color: black;
 }
 
+/* Enhanced Styling for Dropdown Menu */
+#language-select {
+    padding: 10px 15px;
+    border: 2px solid rgb(89, 46, 13);  
+    border-radius: 8px;     
+    background: grey;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;             
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    outline: none;      
+  }
+  
+  #language-select:hover {
+    background: linear-gradient(to bottom, #e9ecef 0%, #dee2e6 100%);
+  }
+  
+  #language-select:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Blue glow effect when focused */
+  }
+  
+  
 @keyframes shake {
     0%,
     100% {
